@@ -1,8 +1,12 @@
+body{
+    background: rgb(173, 194, 214);
+    aspect-ratio: 16/9;
+}
 .text{
     position: absolute;
-    top: 10%;
+    top: 5%;
     left: 25%;
-    color: rgb(23, 7, 167);
+    color: rgb(241, 185, 0);
    
     
 }
@@ -10,7 +14,18 @@
     position: absolute;
     top: 10%;
     left: 19%;
+    display: flex;
     
+}
+
+.images{
+    display: flex;
+    margin-top: 400;
+}
+
+.img_setting{
+
+padding: 10px;
 }
 
 
